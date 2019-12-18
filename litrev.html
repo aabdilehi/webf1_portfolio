@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  <title>WebF1 Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <h1 id = "msg">UP894248</h1>
+    <ul id="header">
+      <li class="nav"><a href="index.html">Home</a></li>
+      <li class="nav" id="currentpage">Literature Review</li>
+      <li class="nav"><a href="disclog.html">Discovery Log</a></li>
+      <li class="nav"><a href="flstare.html">Fluoride Stare</a></li>
+      <li class="nav">
+        <h5><a class = "link" href="http://validator.w3.org/check/referer" rel="nofollow" target="_blank" title="Validate as HTML5">HTML5</a>
+        <a class = "link" href="http://jigsaw.w3.org/css-validator/validator?uri=" rel="nofollow" target="_blank" title="Validate as CSS3">CSS3</a></h5>
+      </li>
+    </ul>
+  </header>
+
+  <section id="welcome"><h2>Literature Review</h2>
+    <p>The first piece of coursework in this unit, written up and formatted in HTML mark-up. It seems that for this to cover the entire screen it needs to take up at least 1 whole line.</p>
+    <img onclick="collapse()" class="chevron" src="images/arrow-up.png" alt="arrow pointing up">
+  </section>
+
+    <img onclick="collapse()" class="chevron" id="expand" src="images/arrow-down.png" alt="arrow pointing down">
+
+<script>
+  function collapse() {
+  var x = document.getElementById("welcome");
+  var y = document.getElementById("expand");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+  } else {
+    x.style.display = "none";
+    y.style.display = "block";
+  }
+}
+</script>
+  <section class="content">
+
+    <h2>Mitigating personal information exposure on the web</h2>
+      <h3>Introduction</h3>
+       <p class = "para">
+        This literature review is about the threats to an individual’s data and how they can be
+        minimised. There will be three themes discussed: phishing and how much of a threat it still
+        poses; account security and how it can be improved upon; and finally, the GDPR and how
+        effective it is in preventing companies from mishandling your data.
+      </p>
+      <h3>Phishing</h3>
+       <p class = "para">
+        Phishing is, as defined by TechTerms, <cite>“a con game that scammers use to collect personal
+        information from unsuspecting users” (Christensson, P., 2006)</cite>. Phishing can be email-towebsite, website-to-email or website-to-website. As phishing has been around for decades,
+        web browsers have had anti-phishing measures built in to alert the user of any suspicious
+        happenings but according to ‘Why Phishing Works’, these are not enough to stop users from
+        clicking through <cite>(Dhamija, Tygar, & Hearst, 2006)</cite>. Despite the browsers warning, Dhamija,
+        Tygar & Hearst found that “23% of participants… did not look at the address bar, status bar,
+        or the security indicators.”
+      </p>
+      <p class="para">
+        The reliability of the data is hard to judge as the study had a sample size of 22 people and
+        most of their data is from 1999-2005. This is an issue as the data may not be an accurate
+        representation anymore. One reason they state for why these attacks work is a lack of
+        knowledge. In the last 12 years, the percentage of those who have become aware of these
+        scams would have increased as the internet becomes more deeply integrated into our
+        society. Despite that, the numbers won’t necessarily have decreased. This is due to the
+        number of internet users increasing, especially with the advent of smartphone and laptop
+        technology. Anti-phishing tools include Phish Tank which is “a user community based antiphishing site” <cite>(Aravindhan, Shanmugalakshmi, Ramya, & C., 2016)</cite>. This is a site which
+        consist of websites that have been reported for phishing. Web browsers, or anti-phishing
+        browser add-ons, can use this website as a database of websites to avoid. This source does
+        a good job of cataloguing the different technologies that have been developed and put into
+        use to defend against scammers. It goes into detail and includes diagrams. The data used is
+        also a lot more recent than “Why Phishing Works”.
+      </p>
+      <h3>Password strength</h3>
+       <p class = "para">
+        While there may be ways to reduce the risk of outside attacks on individuals, there is only so
+        much that can be done without the compliance of the user. The user should be aware of
+        risks and take an active part in keeping their data secure if they wish to be safe online.
+      </p>
+      <p class = "para">
+        Security is often neglected in areas such as setting passwords for online profiles. When
+        choosing a password, users are usually urged to create a strong password that follows a set
+        of rules. According to Shahid’s and Qadeer’s study:
+      “When choosing a password, it [sic] really should:</p>
+<ul  class = "para">
+        <li> Not contain words found in a dictionary...</li>
+      <li>Not be a name of a friend, relative film stars or even a person in a book.</li>
+    <li> Not be less than 8 characters in length</li>
+  <li> Not be a number.</li>
+<li> Not contain a space”</li></ul>
+
+<p class = "para">
+        This was a quote in their study taken off a page from the University of Kent’s website and
+        refers to how passwords should be chosen. The quote was referring to users of Windows
+        2000 which shows how dated the reference is.
+        <cite>(“http://wwww.ukc.ac.uk/informationservices/computing/windows200
+        0/publicpc/passwords/choose.html”)</cite>. The page they have referenced has even been
+        removed from their website which should make the reader question how much of a bearing
+        these guidelines still hold on the creation of a password now. However, this only works to
+        strengthen their point as they use guidelines from 1991 which is equidistant from the year
+        2000 as the year this source was published (2009). The 2 guidelines used are similar, with
+        the only innovation being that the 1991 guideline recommends users to use a password that
+        is quick to enter. The idea is that a password that is quickly typed in can prevent shouldersurfing <cite>(Shahid, M., Qadeer & Mohammed A., 2009, p.223)</cite>. This implies that the password
+        should be easily memorable. However, memorable passwords tend to be easier to guess
+        using brute-force methods and the 2000 guideline recognises and rectifies this issue. There
+        seems to be a need for a balance between a password being easy to use and hard to crack.
+        This balance is described as one of the issues with an alphanumeric password and why we
+        should use other means <cite>(Ithnin & Eljetlawi, 2008)</cite>.
+      </p>
+      <p class="para">
+        All three studies attempt to highlight the lack of innovation when it comes to authentication
+        methods, with passwords and PINs being the most common used. Shahid & Qadeer discuss
+        multiple methods of authentication, all of which are followed by a flowchart describing the
+        process in an easy-to-digest manner as well as the advantages and drawbacks of each
+        method. There is no apparent bias towards any of the methods, but the study does show
+        that not all the methods are equal. On the other hand, the study authored by Tari, Ozok &
+        Holden focuses on the idea of graphical passwords and how secure it really is compared to
+        a regular password. Both sources acknowledge the idea of shoulder-surfing and the risks
+        that poses to security. The third source <cite>(Ithnin & Eljetlawi, 2008)</cite> simply compares the
+        usability features of graphical and alphanumeric passwords. However, it gives a good
+        background on both and justifies itself well.
+      </p>
+
+      <h3>GDPR</h3>
+       <p class = "para">
+        Social networks often allow users to share information about themselves which is then
+        stored away. Users expect the data stored by these companies to be safe in their hands.
+        However, Facebook had been a part of a scandal in which around 87 million profiles had
+        their personal information obtained improperly and sold to Cambridge Analytica without their
+        knowledge or consent <cite>(Isaak & Hanna, 2018)</cite>. This was a breach in trust which made many
+        users reconsider using the website to broadcast their lives. The source gives a good account
+        of the Facebook-Cambridge Analytica occurrence, detailing how they obtained the data, how
+        it was used and the consequences.</p>
+        <p class = "para">
+        The EU’s GDPR includes principles to prevent companies from following in Facebook’s
+        footsteps. This has caused companies to change their privacy policies to reflect these new
+        laws. The GDPR requires companies to report any data breaches themselves and should
+        they fail to do so, they can be fined <cite>“up to 10 million euros or 2 per cent of your global
+        turnover”(‘What happens if we fail to notify?’)</cite>. This is effective as it shows that mishandling
+        personal data, whether by accident or not, is no small issue. A fine that large is a great
+        deterrent.
+      </p>
+      <h3>References:</h3>
+      <ul class = "para">
+        <li>
+          Aravindhan, R., Shanmugalakshmi, R., Ramya, K., & C., S. (2016). Certain investigation on
+          web application security: Phishing detection and phishing target discovery. 2016 3rd
+          International Conference on Advanced Computing and Communication Systems
+          (ICACCS). Coimbatore: IEEE.
+        </li>
+
+        <li>
+          Christensson, P. (2006). Phishing Definition. Retrieved 2018, Nov 15, from
+          https://techterms.com
+        </li>
+
+        <li>Dhamija, R., Tygar, J. D., & Hearst, M. (2006). Why Phishing Works. SIGCHI Conference on
+          Human Factors in Computing Systems, (pp. 581-590).</li>
+        <li>
+          Isaak, J., & Hanna, M. J. (2018). User Data Privacy: Facebook, Cambridge Analytica, and
+          Privacy Protection. Computer, 56-69.</li>
+        <li>Ithnin, N., & Eljetlawi, A. M. (2008). Graphical Password: Comprehensive study of the
+          usability features of the Recognition Base Graphical Password methods. Third 2008
+          International Conference on Convergence and Hybrid Information Technology (pp.
+          1137-1143). IEEE.</li>
+        <li>Kirkham, T., Winfield, S., Ravet, S., & Kellomäki, S. (2012). The Personal Data Store
+          Approach to Personal Data Security. IEEE Security & Privacy, 12-19.</li>
+        <li>Shahid, M., Qadeer & Mohammed A. (2009). Novel scheme for securing passwords.
+          2009 3rd IEEE International Conference on Digital Ecosystems and Technologies
+          (pp.223- 227). Istanbul: IEEE</li>
+        <li>Tari, F., Ozok, A. A., & Holden, S. H. (2006). A comparison of perceived and real shouldersurfing risks between alphanumeric and graphical passwords. SOUPS '06
+          Proceedings of the second symposium on Usable privacy and security, 56-66.</li>
+        <li>‘What happens if we fail to notify?’. Retrieved from
+          https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulationgdpr/personal-data-breaches/</li>
+        </ul>
+  </section>
+
+</body>
+
+</html>

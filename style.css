@@ -1,0 +1,148 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 2vw;
+}
+
+#header {
+  text-align: right;
+  border-bottom: 10px solid hotpink;
+  padding: 0.4vw;
+  background-color: #224;
+}
+
+a, #currentpage {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 1.5vw;
+}
+
+.nav {
+  display: inline;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+.val {
+  display: inline;
+}
+h5 {display: inline;}
+.link {
+  color: white;
+  background-color: #224;
+  border: 2px solid lightblue;
+  border-radius: 8px;
+  text-align: center;
+  width: 50px;
+  padding: 5px 10px;
+  margin: 3px;
+
+}
+
+#msg {
+  text-align: left;
+  display: inline;
+  float: left;
+  padding: 1.25vw;
+  color: white;
+}
+
+#currentpage {
+  color: #224;
+  background-color: white;
+}
+
+.content {
+  margin: 0vw 5vw 2vw 5vw;
+}
+
+.para {
+  margin-bottom: 1em;
+}
+
+h1, h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul, p, h3, cite {
+  font-family: 'Open Sans', sans-serif;
+  word-wrap: break-word;
+}
+#video {
+  display: block;
+  margin: 2vw auto;
+}
+#welcome {
+  text-align: center;
+  display: inline-block;
+  background-color: lightblue;
+  margin-bottom: 2vw;
+  padding: 3vw 30vw 0vw 30vw;
+}
+
+.fl {
+  object-fit: cover;
+  height: auto;
+  width: 28vw;
+  margin: 1vw auto 2vw auto;
+  border: 3px solid red;
+}
+.chevron {
+  height: auto;
+  width: 2vw;
+  min-width: 30px;
+  margin-top: 3vw;
+}
+
+.chevron:hover {
+filter: opacity(0.5) drop-shadow(0 0 0 blue);
+}
+#expand {
+  display: none;
+  margin: 0.5vw 0vw 2vw 49vw;
+}
+
+@media screen and (max-width: 750px) {
+  .nav, a, #currentpage {
+    display: block;
+  }
+
+  #header {
+    text-align: center;
+  }
+
+  #msg {
+    display: none;
+  }
+
+  #welcome {
+    padding: 6vw 8vw 0vw 8vw;
+  }
+
+  .chevron {margin-top: 4vw;}
+  .fl {
+    width: 70%;
+    display: block;
+    margin-bottom: 2vw;
+  }
+
+  .link {
+    display: block;
+    border: 0px;
+    width: auto;
+    text-decoration: underline;
+  }
+  #expand {
+    margin: 0.5vw 0vw 2vw 46.5vw;
+  }
+
+  #video {width: 100%;}
+}

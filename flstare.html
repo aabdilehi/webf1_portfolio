@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  <title>WebF1 Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <h1 id = "msg">UP894248</h1>
+    <ul id="header">
+      <li class="nav"><a href="index.html">Home</a></li>
+      <li class="nav"><a href="litrev.html">Literature Review</a></li>
+      <li class="nav"><a href="disclog.html">Discovery Log</a></li>
+      <li class="nav" id="currentpage">Fluoride Stare</li>
+      <li class="nav">
+        <h5><a class = "link" href="http://validator.w3.org/check/referer" rel="nofollow" target="_blank" title="Validate as HTML5">HTML5</a>
+        <a class = "link" href="http://jigsaw.w3.org/css-validator/validator?uri=" rel="nofollow" target="_blank" title="Validate as CSS3">CSS3</a></h5>
+      </li>
+    </ul>
+  </header>
+
+  <section id="welcome"><h2>Fluoride Stare</h2>
+    <p>A delve into the fluoride stare, a completely rational view on the current state of our society. It seems that for this to cover the entire screen it needs to take up at least 1 whole line.</p>
+    <img onclick="collapse()" class="chevron" src="images/arrow-up.png" alt="arrow pointing up">
+  </section>
+
+    <img onclick="collapse()" class="chevron" id="expand" src="images/arrow-down.png" alt="arrow pointing down">
+
+<script>
+function collapse() {
+var x = document.getElementById("welcome");
+var y = document.getElementById("expand");
+if (x.style.display === "none") {
+  x.style.display = "block";
+  y.style.display = "none";
+} else {
+  x.style.display = "none";
+  y.style.display = "block";
+}
+}
+</script>
+  <section class="content">
+    <h3>What is it?</h3>
+    <p class="para">Fluoride Stare is in reference to the fluoridation of drinking water in order to make it safe to drink. It is based on a theory that fluoride dumbs people down, allowing the government to more easily control the masses. The
+      fluoride stare is
+      the result. In response to being told "shocking truths" (usually just some half-baked conspiracy theory they have revolved their entire adult life around), people apparently just give a blank stare rather than being outraged. </p>
+    <h3>Where does it come from?</h3>
+    <p class="para">The fluoride stare theory comes from a theory that suggests fluoride is a neuro-toxin. This stems from a single study which suggests that fluoride intake at a level higher than recommended can cause developmental issues in
+      people; the key phrase being "higher than recommended".</p>
+    <h3>What does it look like?</h3>
+    <p class="para">Below are a few illustrations that depict the infamous fluoride stare (brace yourselves):</p>
+
+      <img class = "fl" src="images/fl1.png" alt="fluoride stare 1">
+      <img class = "fl" src="images/fl2.png" alt="fluoride stare 2">
+      <img class = "fl" src="images/fl3.jpg" alt="fluoride stare 3">
+
+    <p class="para"> You're probably thinking "oh these are clearly just jokes" but if I could direct your attention the the tags. Pictures like these are posted multiple times per day to pages run by people who think this way. The format is
+      reminiscent of early internet memes which just makes it just that much worse. If you are wondering why the first and third example are so similar, it is the exact same image just cropped differently. Not sure why but whatever.</p>
+    <h3>Is there anything to worry about?</h3>
+    <p class="para">*fluoride stare*</p>
+  </section>
+</body>
+
+</html>
